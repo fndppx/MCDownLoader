@@ -15,11 +15,10 @@
 		1951F1D12091E041009BFB02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1951F1D02091E041009BFB02 /* main.m */; };
 		1951F1DB2091E041009BFB02 /* MCDownLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1951F1DA2091E041009BFB02 /* MCDownLoaderTests.m */; };
 		1951F1E62091E041009BFB02 /* MCDownLoaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1951F1E52091E041009BFB02 /* MCDownLoaderUITests.m */; };
-		1951F1F92091E336009BFB02 /* MCDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1951F1F82091E336009BFB02 /* MCDownloadManager.m */; };
-		1951F2032092CCB6009BFB02 /* MCDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1951F2022092CCB6009BFB02 /* MCDownloadItem.m */; };
-		1951F2062092CCCA009BFB02 /* MCHttpDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1951F2052092CCCA009BFB02 /* MCHttpDownloadItem.m */; };
-		1951F2092092CCE5009BFB02 /* MCHttpDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1951F2082092CCE5009BFB02 /* MCHttpDownloadManager.m */; };
-		1951F2112092D1D7009BFB02 /* MCDownloadDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1951F2102092D1D7009BFB02 /* MCDownloadDBManager.m */; };
+		19E33D0F20A540BC0055DE0B /* MKHttpDownloadFileMD5Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E33D0720A540BC0055DE0B /* MKHttpDownloadFileMD5Tools.m */; };
+		19E33D1020A540BC0055DE0B /* MKHttpDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E33D0820A540BC0055DE0B /* MKHttpDownloadItem.m */; };
+		19E33D1120A540BC0055DE0B /* MKHttpDownloadFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E33D0920A540BC0055DE0B /* MKHttpDownloadFileManager.m */; };
+		19E33D1220A540BC0055DE0B /* MKHttpDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E33D0D20A540BC0055DE0B /* MKHttpDownloadManager.m */; };
 		20E9ADD2B3F5EE5BCBB01AE4 /* libPods-MCDownLoader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830EF9AA334EAE5B665DAD1 /* libPods-MCDownLoader.a */; };
 /* End PBXBuildFile section */
 
@@ -58,17 +57,15 @@
 		1951F1E12091E041009BFB02 /* MCDownLoaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCDownLoaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1951F1E52091E041009BFB02 /* MCDownLoaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCDownLoaderUITests.m; sourceTree = "<group>"; };
 		1951F1E72091E041009BFB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1951F1F82091E336009BFB02 /* MCDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCDownloadManager.m; sourceTree = "<group>"; };
-		1951F2012092CCB6009BFB02 /* MCDownloadItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCDownloadItem.h; sourceTree = "<group>"; };
-		1951F2022092CCB6009BFB02 /* MCDownloadItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCDownloadItem.m; sourceTree = "<group>"; };
-		1951F2042092CCCA009BFB02 /* MCHttpDownloadItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCHttpDownloadItem.h; sourceTree = "<group>"; };
-		1951F2052092CCCA009BFB02 /* MCHttpDownloadItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCHttpDownloadItem.m; sourceTree = "<group>"; };
-		1951F2072092CCE5009BFB02 /* MCHttpDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCHttpDownloadManager.h; sourceTree = "<group>"; };
-		1951F2082092CCE5009BFB02 /* MCHttpDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCHttpDownloadManager.m; sourceTree = "<group>"; };
-		1951F20A2092CDA5009BFB02 /* MCDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDownloadManager.h; sourceTree = "<group>"; };
-		1951F20E2092CFB0009BFB02 /* MCDownloadError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCDownloadError.h; sourceTree = "<group>"; };
-		1951F20F2092D1D7009BFB02 /* MCDownloadDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCDownloadDBManager.h; sourceTree = "<group>"; };
-		1951F2102092D1D7009BFB02 /* MCDownloadDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCDownloadDBManager.m; sourceTree = "<group>"; };
+		19E33D0620A540BC0055DE0B /* MKHttpDownloadFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKHttpDownloadFileManager.h; sourceTree = "<group>"; };
+		19E33D0720A540BC0055DE0B /* MKHttpDownloadFileMD5Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKHttpDownloadFileMD5Tools.m; sourceTree = "<group>"; };
+		19E33D0820A540BC0055DE0B /* MKHttpDownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKHttpDownloadItem.m; sourceTree = "<group>"; };
+		19E33D0920A540BC0055DE0B /* MKHttpDownloadFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKHttpDownloadFileManager.m; sourceTree = "<group>"; };
+		19E33D0A20A540BC0055DE0B /* MKHttpDownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKHttpDownloadItem.h; sourceTree = "<group>"; };
+		19E33D0B20A540BC0055DE0B /* MKHttpDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKHttpDownloadManager.h; sourceTree = "<group>"; };
+		19E33D0C20A540BC0055DE0B /* MKHttpDownloadConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKHttpDownloadConst.h; sourceTree = "<group>"; };
+		19E33D0D20A540BC0055DE0B /* MKHttpDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKHttpDownloadManager.m; sourceTree = "<group>"; };
+		19E33D0E20A540BC0055DE0B /* MKHttpDownloadFileMD5Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKHttpDownloadFileMD5Tools.h; sourceTree = "<group>"; };
 		5AB4C5A53377066645C2EDFE /* Pods-MCDownLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCDownLoader.release.xcconfig"; path = "Pods/Target Support Files/Pods-MCDownLoader/Pods-MCDownLoader.release.xcconfig"; sourceTree = "<group>"; };
 		736717AC102E680844F19013 /* Pods-MCDownLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCDownLoader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MCDownLoader/Pods-MCDownLoader.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,17 +156,15 @@
 		1951F1F32091E06F009BFB02 /* Downloader */ = {
 			isa = PBXGroup;
 			children = (
-				1951F20A2092CDA5009BFB02 /* MCDownloadManager.h */,
-				1951F1F82091E336009BFB02 /* MCDownloadManager.m */,
-				1951F20F2092D1D7009BFB02 /* MCDownloadDBManager.h */,
-				1951F2102092D1D7009BFB02 /* MCDownloadDBManager.m */,
-				1951F2012092CCB6009BFB02 /* MCDownloadItem.h */,
-				1951F2022092CCB6009BFB02 /* MCDownloadItem.m */,
-				1951F2042092CCCA009BFB02 /* MCHttpDownloadItem.h */,
-				1951F2052092CCCA009BFB02 /* MCHttpDownloadItem.m */,
-				1951F2072092CCE5009BFB02 /* MCHttpDownloadManager.h */,
-				1951F2082092CCE5009BFB02 /* MCHttpDownloadManager.m */,
-				1951F20E2092CFB0009BFB02 /* MCDownloadError.h */,
+				19E33D0C20A540BC0055DE0B /* MKHttpDownloadConst.h */,
+				19E33D0620A540BC0055DE0B /* MKHttpDownloadFileManager.h */,
+				19E33D0920A540BC0055DE0B /* MKHttpDownloadFileManager.m */,
+				19E33D0E20A540BC0055DE0B /* MKHttpDownloadFileMD5Tools.h */,
+				19E33D0720A540BC0055DE0B /* MKHttpDownloadFileMD5Tools.m */,
+				19E33D0A20A540BC0055DE0B /* MKHttpDownloadItem.h */,
+				19E33D0820A540BC0055DE0B /* MKHttpDownloadItem.m */,
+				19E33D0B20A540BC0055DE0B /* MKHttpDownloadManager.h */,
+				19E33D0D20A540BC0055DE0B /* MKHttpDownloadManager.m */,
 			);
 			path = Downloader;
 			sourceTree = "<group>";
@@ -375,14 +370,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1951F2092092CCE5009BFB02 /* MCHttpDownloadManager.m in Sources */,
-				1951F2112092D1D7009BFB02 /* MCDownloadDBManager.m in Sources */,
+				19E33D1020A540BC0055DE0B /* MKHttpDownloadItem.m in Sources */,
 				1951F1C62091E03F009BFB02 /* ViewController.m in Sources */,
 				1951F1D12091E041009BFB02 /* main.m in Sources */,
-				1951F2032092CCB6009BFB02 /* MCDownloadItem.m in Sources */,
-				1951F1F92091E336009BFB02 /* MCDownloadManager.m in Sources */,
-				1951F2062092CCCA009BFB02 /* MCHttpDownloadItem.m in Sources */,
+				19E33D0F20A540BC0055DE0B /* MKHttpDownloadFileMD5Tools.m in Sources */,
 				1951F1C32091E03F009BFB02 /* AppDelegate.m in Sources */,
+				19E33D1220A540BC0055DE0B /* MKHttpDownloadManager.m in Sources */,
+				19E33D1120A540BC0055DE0B /* MKHttpDownloadFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,7 +548,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MCDownLoader/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.imooc.MCDownLoader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -568,7 +565,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MCDownLoader/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.imooc.MCDownLoader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -581,7 +581,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MCDownLoaderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.imooc.MCDownLoaderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -595,7 +599,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MCDownLoaderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.imooc.MCDownLoaderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -608,7 +616,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MCDownLoaderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.imooc.MCDownLoaderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -621,7 +633,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MCDownLoaderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.imooc.MCDownLoaderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
