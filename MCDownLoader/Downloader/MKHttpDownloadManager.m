@@ -88,6 +88,7 @@ withDownloadingHandler:(void(^)(long long, long long)) downloadingHandler
     }
 }
 - (void)URLSession:(NSURLSession *)session downloadTask:(NSURLSessionDownloadTask *)downloadTask didWriteData:(int64_t)bytesWritten totalBytesWritten:(int64_t)totalBytesWritten totalBytesExpectedToWrite:(int64_t)totalBytesExpectedToWrite {
+    self.downloadItem.totalBytesWritten = totalBytesWritten;
     !self.downloadingHandler?:self.downloadingHandler(totalBytesWritten,totalBytesExpectedToWrite);
 }
 

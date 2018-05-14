@@ -12,9 +12,10 @@
 //必传
 @property (nonatomic, strong) NSString *downloadURL;     //  地址
 @property (nonatomic, strong) NSString *filePath;        //  文件地址
+
 /// 文件已经下载的大小
 @property (assign, nonatomic) int64_t totalBytesWritten;
 
 @property (assign, nonatomic, readonly) BOOL isTs;
-
++ (NSString *)fileStorageDirectory;
 @end
